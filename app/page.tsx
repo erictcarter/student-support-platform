@@ -31,6 +31,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-8">See How We're Making a Difference</h2>
+          <div className="bg-white rounded-lg shadow-xl overflow-hidden">
+            <video
+              controls
+              className="w-full"
+              poster="/video-thumbnail.jpg"
+            >
+              <source src="/intro-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="text-center text-gray-600 mt-6 max-w-2xl mx-auto">
+            Learn about our mission to provide culturally-sensitive mental health support
+            for international students.
+          </p>
+        </div>
+      </section>
+
       {/* About Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
