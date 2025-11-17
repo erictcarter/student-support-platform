@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import Logo from "@/components/Logo";
 
 export const metadata: Metadata = {
-  title: "International Student Support Platform",
+  title: "WelNest - Student Support Platform",
   description: "Culturally-sensitive mental health support for international students",
 };
 
@@ -19,9 +20,7 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className="flex items-center">
-                <Link href="/" className="text-xl font-bold">
-                  International Student Support
-                </Link>
+                <Logo />
               </div>
               <div className="flex items-center space-x-4">
                 <Link href="/" className="hover:text-blue-200">
@@ -46,7 +45,7 @@ export default function RootLayout({
         <main>{children}</main>
         <footer className="bg-gray-100 mt-16 py-8 border-t">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-600">
-            <p>&copy; 2024 International Student Support Platform. All rights reserved.</p>
+            <p>&copy; 2024 WelNest. All rights reserved.</p>
             <p className="mt-2">
               <Link href="/privacy" className="text-blue-600 hover:underline">
                 Privacy Policy

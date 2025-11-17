@@ -6,9 +6,18 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">
-            Mental Health Support for International Students
-          </h1>
+          <div className="mb-6">
+            <h1 className="text-6xl font-bold mb-2">
+              <span className="text-white">Wel</span>
+              <span className="text-yellow-300">Nest</span>
+            </h1>
+            <p className="text-2xl font-light text-blue-100">
+              Your Safe Space for Mental Wellness
+            </p>
+          </div>
+          <h2 className="text-3xl font-semibold mb-6">
+            Culturally-Sensitive Support for International Students
+          </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             A culturally-sensitive platform designed to provide mental health support
             tailored to the unique experiences of international students from Asia,
